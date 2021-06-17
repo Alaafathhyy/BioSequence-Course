@@ -29,7 +29,6 @@ void LongestLen(int &len, char x, int indx)
 
 void BuildFailure()
 {
-
     fail[0] = 0;
     // compute the failure array for the pattern
     for (int i = 1; i < m; ++i)
